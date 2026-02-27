@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/docs/CSS/regist_form.css">
+    <link href="https://fonts.googleapis.com/earlyaccess/nicomoji.css" rel="stylesheet">
+
+
+    <title>登録フォーム</title>
+</head>
+
+<body>
+    <h1>とうろくフォーム</h1>
+    <div id="regist_box">
+        <span>
+            <label for="username">Username</label>
+            <input type="text" name="username" id="username" />
+        </span>
+        <span>
+            <label for="email">Email</label>
+            <input type="email" name="email" id="email" />
+        </span>
+        <span>
+            <label for="password">Password</label>
+            <input type="password" name="password" id="password" />
+        </span>
+        <button type="submit" id="submit" onclick="submitFunc()">Submit</button>
+
+    </div>
+    <script src="/docs/JS/regist_form.js"></script>
+</body>
+
+</html>
